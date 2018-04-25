@@ -127,7 +127,7 @@ header h1 {
   -moz-osx-font-smoothing: grayscale;
   color: #ffffff;
   white-space: nowrap;
-  border-bottom: 1px solid #555b61;
+  /* border-bottom: 1px solid #555b61; */
 
   text-overflow: ellipsis;
 }
@@ -201,7 +201,7 @@ header h1 {
     transition: opacity 0.2s;
   }
   .cd-faq-categories .selected {
-    background: #1f272961 !important;
+    background: #5d256785 !important;
   }
   .cd-faq-categories .selected::before {
     opacity: 1;
