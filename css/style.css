@@ -59,7 +59,7 @@ body.cd-overlay::after {
 
 a {
   /* color: #4da4e1; */
-  color: #022946;
+  /* color: #022946; */
   text-decoration: none;
 }
 
@@ -201,7 +201,7 @@ header h1 {
     transition: opacity 0.2s;
   }
   .cd-faq-categories .selected {
-    background: #42464b !important;
+    background: #1f272961 !important;
   }
   .cd-faq-categories .selected::before {
     opacity: 1;
@@ -396,7 +396,7 @@ header h1 {
   .cd-faq-trigger {
     font-size: 24px;
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: 400;
     margin: 0;
     padding: 24px 72px 24px 24px;
   }
