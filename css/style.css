@@ -485,10 +485,11 @@ header h1 {
   width: 100%;
   border-radius: 0px;
   border: none;
-  padding: 35px;
+  padding: 5px 10px;
+  /* height: 100px; */
   position: relative;
   background: #fff;
-  border: 1px solid #ddd;
+  border: 1px dashed #ddd;
   -webkit-transition: all 200ms ease-in-out;
   -moz-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;

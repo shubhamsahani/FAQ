@@ -29,7 +29,7 @@ function findString(str) {
         alert("Opera browsers not supported, sorry...")
         return;
     }
-    if (!strFound) alert("String '" + str + "' not found!")
+    if (!strFound) alert("Your Question '" + str + "' not found!")
         return;
 };
 
