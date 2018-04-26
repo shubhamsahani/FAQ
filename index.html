@@ -61,8 +61,9 @@ body  {
 			<div class='row'>
 				<div class='col-md-6'>
 					<div class='search-box'>
-						<form class='search-form'>
-							<input class='form-control' placeholder='Search Any Question Here !' type='text'>
+						<form class='search-form' name="f1" id="f1" action="">
+							<input class='form-control' class="t1" name="t1" placeholder='Search Any Question Here !' type='text' autocomplete="off">
+							<!-- <input type="submit" name="b1" value="Find" /> -->
 						</form>
 					</div>
 				</div>
@@ -80,32 +81,32 @@ body  {
 				      </tr>
 				    </thead>
 				    <tbody>
-				      <tr>
+				      <tr class="success">
 				        <td>0-50</td>
 				        <td>Good</td>
 				        <td>This generally means that the air quality is good and has no general risks to sensitive people or even healthy people</td>
 				      </tr>
-				      <tr>
+				      <tr class="info">
 				        <td>51-100</td>
 				        <td>Moderate</td>
 				        <td>Air Quality is fine, except some minor pollutants for people highly sensitive people to air pollution.</td>
 				      </tr>
-				      <tr>
+				      <tr class="active">
 				        <td>101-150</td>
 				        <td>Unhealthy for Sensitive Groups!</td>
 				        <td>People sensitive to air pollution and lung problems are at health risks, but it’s rather fine for the general public.</td>
 				      </tr>
-							<tr>
+							<tr class="default">
 								<td>151-200</td>
 								<td>Unhealthy</td>
 								<td>Now general crowd will start having health problem and sensitive people will start having severe health risks.</td>
 							</tr>
-							<tr>
+							<tr class="warning">
 								<td>201-300</td>
 								<td>Very Unhealthy!</td>
 								<td>There are health problems for everyone. Everyone is going to getting affected by it.</td>
 							</tr>
-							<tr>
+							<tr class="danger">
 								<td>301-500</td>
 								<td>Hazardous</td>
 								<td>This is a high alert emergency causing major health risks,not just for sensitive people but also for health people. This is a high alert risk, which could severely affect the health or even lead to death</td>
@@ -374,6 +375,7 @@ body  {
 <script src="js/jquery.mobile.custom.min.js"></script>
 <script src="js/main.js"></script> <!-- Resource jQuery -->
 <script  src="js/index.js"></script>
+<script src="js/search.js"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
 
 </body>

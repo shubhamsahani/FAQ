@@ -5,8 +5,13 @@
 Primary style
 
 -------------------------------- */
-.table{
+/* .table{
   font-size: 12px;
+
+} */
+.table {
+    font-size: 14px;
+    font-weight: inherit;
 }
 
 a:focus, a:hover{
@@ -24,7 +29,6 @@ a:focus, a:hover{
 
 body {
   font-size: 100%;
-  font-family: "Open Sans", sans-serif;
   /* font-family: "Open Sans", sans-serif;
   font-family: 'Gloria Hallelujah', cursive; */
   /* font-family: 'Gugi', cursive; */
