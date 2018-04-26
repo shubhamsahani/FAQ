@@ -19,11 +19,32 @@
 body  {
     background-image: url("img/back.jpg");
 }
+
+header h1{
+	animation: colorchange 20s;
+	 -webkit-animation: colorchange 20s;
+}
+@keyframes colorchange
+    {
+      0%   {background: #5989e5;}
+      25%  {background: #f2b9439e;}
+      50%  {background: blue;}
+      75%  {background: green;}
+      100% {background: #5989e5;}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: #5989e5;}
+      25%  {background: #f2b9439e;}
+      50%  {background: blue;}
+      75%  {background: green;}
+      100% {background: #5989e5;}
+    }
 </style>
 </head>
 <body>
 <header>
-
 	<h1 style="font-family: 'Black Han Sans', sans-serif;"> 	AQI-INDIA | <span style="font-family: 'Gloria Hallelujah', cursive;"> FAQ</span> </h1>
 </header>
 <section>
